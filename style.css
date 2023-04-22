@@ -205,6 +205,54 @@ a.experience-btn:hover{
     background-color: rgba(255, 144, 14, 0.2);
     color: rgba(255, 144, 14, 1);
 }
+/* Facts Section Style */
+.facts{
+    margin-bottom: 100px;
+}
+.facts > h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts > p{
+    width: 40%;
+    color: #727272;
+    margin: 30px 0;
+}
+.facts-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facts-box > img{
+    width: 45px;
+}
+.facts-box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid rgba(255, 144, 14, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+    transition: transform 0.2s;
+}
+.facts-box:hover{
+    transform: scale(1.2);
+}
+.facts-box > h1{
+    font-size: 45px;
+}
+.facts-box > p{
+    font-size: 18px;
+    color: #727272;
+}
+
+
+
+
+
+
 /*======================
 Style For Small Device 
 ========================*/
