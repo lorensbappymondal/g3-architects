@@ -107,7 +107,7 @@ img{
     padding: 0;
 }
 .features-images > img{
-    width: 250px;
+    width: 40%;
     margin: 0 20px 20px 0;
 }
 .features-content{
@@ -120,14 +120,18 @@ img{
 .dark{
     color: #131313;
 }
-.features-content > h1{
-    color: #727272;
-}
 .features-content > p{
     width: 75%;
     margin: 30px 0;
     line-height: 26px;
 }
+.mobile-view{
+    display: none;
+}
+
+
+
+
 /*======================
 Style For Small Device 
 ========================*/
@@ -172,6 +176,40 @@ Style For Small Device
         line-height: 30px;
         margin: 0 auto;
         color: #727272;
+    }
+
+    /* Features Section */
+    .features{
+        margin: 50px 0;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-images{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .features-images > img{
+        width: 100%;
+    }
+    .mobile-view{
+        display: block;
+        margin-bottom: 50px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    /* Features content */
+    .features-content{
+        width: 100%;
+    }
+    .features-content > h1{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .features-content > p{
+        width: 100%;
     }
   }
   
