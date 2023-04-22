@@ -275,7 +275,6 @@ a.experience-btn:hover{
 /* subscription section  */
 .subscription{
     background-color: rgba(255, 144, 14, 0.3);
-    margin-bottom: 100px;
     padding: 50px 0;
     text-align: center;
 }
@@ -299,6 +298,15 @@ a.experience-btn:hover{
     font-size: 18px;
     color: rgba(255, 144, 14, 0.5);
   }
+
+/* Footer Section Style */
+footer{
+    background-color: #131313;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
 
 
 
