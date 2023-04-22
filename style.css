@@ -358,7 +358,17 @@ a.experience-btn{
 }
 
 
-
+/* Facts Section  */
+.facts > h1{
+    font-size: 30px;
+}
+.facts > p{
+    width: 100%;
+}
+.facts-icons{
+    display: flex;
+    flex-direction: column;
+}
 
 
   }
