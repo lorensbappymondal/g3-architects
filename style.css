@@ -250,7 +250,7 @@ a.experience-btn:hover{
 
 /* Sponspors Section Style */
 .sponspors{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .sponspors > h1{
@@ -268,7 +268,8 @@ a.experience-btn:hover{
     align-items: center;
 }
 .sponspors-logo > img{
-    width: 100px;
+    width: 150px;
+    margin-bottom: 50px;
 }
 
 
@@ -387,6 +388,19 @@ a.experience-btn{
     width: 100%;
 }
 .facts-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sponspors Section */
+
+.sponspors > h1{
+    font-size: 30px;
+}
+.sponspors > p{
+    width: 100%;
+}
+.sponspors-logo{
     display: flex;
     flex-direction: column;
 }
