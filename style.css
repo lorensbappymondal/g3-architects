@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
 }
 
 #container{
@@ -89,7 +90,44 @@ img{
     padding-bottom: 30px;
 }
 
-
+/* features style */
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.features-images{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.features-images > img{
+    margin: 0;
+    padding: 0;
+}
+.features-images > img{
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+.features-content{
+    width: 50%;
+}
+.features-content > h1{
+    font-size: 45px;
+    color: #727272;
+}
+.dark{
+    color: #131313;
+}
+.features-content > h1{
+    color: #727272;
+}
+.features-content > p{
+    width: 75%;
+    margin: 30px 0;
+    line-height: 26px;
+}
 /*======================
 Style For Small Device 
 ========================*/
